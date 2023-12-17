@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { HeaderHomeStyle } from "./header-home.style";
+import { HeaderHomeStyle } from "./headers.style";
 import Link from "next/link";
 
 const HeaderHome = () => {

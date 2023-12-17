@@ -16,3 +16,11 @@ export const HeaderHomeStyle = styled.div`
         font-size: medium;
     }
 `;
+
+export const HeaderButtonBack = styled.div`
+    padding: 1.25rem;
+`
+
+export const Wrapper = styled.div`
+    padding: 1rem;
+`
