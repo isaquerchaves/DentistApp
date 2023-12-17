@@ -1,10 +1,11 @@
 import Image from "next/image";
 import HeaderHome from "../components/header-home";
 import { HomeContent } from "./home-content.style";
+import Link from "next/link";
 
 export default function Home() {
     return (
-        <div>
+        <>
             <HeaderHome />
             <HomeContent>
                 <section>
@@ -20,8 +21,10 @@ export default function Home() {
                     width={287}
                     height={491}
                 />
-                <button>Iniciar</button>
+                <Link href='/signin'>
+                    <button>Iniciar</button>
+                </Link>
             </HomeContent>
-        </div>
+        </>
     )
 }

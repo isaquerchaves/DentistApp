@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { HeaderHomeStyle } from "./header-home.style";
+import Link from "next/link";
 
 const HeaderHome = () => {
     return (
@@ -10,7 +11,9 @@ const HeaderHome = () => {
                 width={35}
                 height={35}
             />
-            <button>Login</button>
+            <Link href='/signin'>
+                <button>Login</button>
+            </Link>
         </HeaderHomeStyle>
     );
 }

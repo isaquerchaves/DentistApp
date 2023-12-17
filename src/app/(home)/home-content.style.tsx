@@ -28,5 +28,6 @@ height: 90vh;
     border: none;
     padding: 1rem 3rem;
     border-radius: 2rem;
+    cursor: pointer;
 }
 `
