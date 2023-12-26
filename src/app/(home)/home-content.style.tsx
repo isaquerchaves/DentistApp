@@ -7,9 +7,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-overflow: hidden;
-gap: 0;
-height: 90vh;
 
 & p {
     font-weight: bold;
@@ -29,5 +26,19 @@ height: 90vh;
     padding: 1rem 3rem;
     border-radius: 2rem;
     cursor: pointer;
+}
+@media (max-width: 480px){
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    & p, span {
+        font-size: small;
+    }
+
+    &.image-small {
+            width: 100px;
+            height: 100px;
+        }
 }
 `

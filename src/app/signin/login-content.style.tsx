@@ -36,7 +36,7 @@ export const CardInput = styled.div`
     background-color: white;
     border: 1px solid #B2B2B2;
     border-radius: 0.7rem;
-    width: 70vw;
+    width: 30rem;
     margin: 1rem;
     padding: 0.625rem;
     display: flex;
@@ -45,6 +45,10 @@ export const CardInput = styled.div`
     
     & input::placeholder {
         color: black;
+    }
+
+    @media (max-width: 640px) {
+        width: 70vw
     }
 `;
 

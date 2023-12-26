@@ -1,13 +1,13 @@
 import { Lock, User } from "lucide-react";
 import Image from "next/image";
-import { ContentLoginStyle, CardInput } from "../components/login-content.style";
-import HeaderBack from "../components/header-back";
+import { ContentLoginStyle, CardInput } from "./login-content.style";
+import HeaderBack from "../components/header/header-back";
 
 
 const SignIn = () => {
     return (
         <div>
-            <HeaderBack />
+            <HeaderBack href='/' />
             <ContentLoginStyle>
                 <h1>Bem vindo novamente!👋</h1>
                 <Image
